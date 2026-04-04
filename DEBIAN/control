@@ -1,9 +1,9 @@
 Package: essora-vm
 Maintainer: josejp2424 <puppylinuxjosejp2424@gmail.com>
 Architecture: amd64
-Version: 1.2-essora
+Version: 1.3-essora
 Installed-Size: 131
-Depends: qemu-system, qemu-system-x86, qemu-utils, qemu-system-common, libvirt-daemon-system, libvirt-daemon-system-sysv, python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, xdotool
+Depends: qemu-system, qemu-system-x86, qemu-utils, qemu-system-common, grub-firmware-qemu, qemu-efi-riscv64, u-boot-qemu, u-boot-tools, libvirt-daemon-system, libvirt-daemon-system-sysv, python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, xdotool
 Provides: Utility
 Section:  Utility
 Priority: optional
